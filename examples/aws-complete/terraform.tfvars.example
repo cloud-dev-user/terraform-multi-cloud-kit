@@ -1,0 +1,9 @@
+# ── Rename this file to terraform.tfvars and fill in your values ──────────────
+# cp terraform.tfvars.example terraform.tfvars
+
+aws_region   = "us-east-1"
+project_name = "myapp"
+environment  = "dev"
+
+# Restrict to your office/VPN IP in production
+allowed_cidr_blocks = ["0.0.0.0/0"]
